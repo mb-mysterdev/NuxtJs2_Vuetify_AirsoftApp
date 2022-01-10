@@ -8,26 +8,52 @@
         max-height="27rem"
       />
       <div class="overlay">
-        <div
-          style="margin-left: 10rem;"
-        >
-          <v-card>
-            <v-img
-              max-height="16rem"
-              style="border: 1px solid black;
-              box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;"
-              max-width="10rem"
-              src="https://ae01.alicdn.com/kf/HTB1LACjKVXXXXcHXXXXq6xXFXXXw/202735408/HTB1LACjKVXXXXcHXXXXq6xXFXXXw.jpg?size=43867&height=800&width=800&hash=5cbf71b36d29fa40b943805cb345e35b"
-            />
-          </v-card>
-        </div>
-        <div class="ml-5 white--text mb-5">
-          <div class="font-weight-bold text-h5">
-            Association d'airsoft de Melun
+        <div>
+          <div class="d-flex justify-center">
+            <div class="ml-5 white--text">
+              <div class="font-weight-bold text-h5">
+                Association d'airsoft de Melun
+              </div>
+              <div class="font-weight-medium">
+                89 Rue des anges 77490, Melun
+              </div>
+            </div>
           </div>
-          <div>89 Rue des anges 77490, Melun</div>
+
+          <v-app-bar
+            dense
+            elevation="4"
+            color="#efeae4"
+          >
+            <div
+              style="margin-left: 10rem;"
+            >
+              <v-card>
+                <v-img
+                  max-height="20rem"
+                  style="border: 1px solid black;
+              box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;"
+                  max-width="13rem"
+                  src="https://ae01.alicdn.com/kf/HTB1LACjKVXXXXcHXXXXq6xXFXXXw/202735408/HTB1LACjKVXXXXcHXXXXq6xXFXXXw.jpg?size=43867&height=800&width=800&hash=5cbf71b36d29fa40b943805cb345e35b"
+                />
+              </v-card>
+            </div>
+            <div class="ml-5">
+              <span class="mr-10">
+                Profile
+              </span>
+              <span class="mr-10">
+                Parties
+              </span>
+              <span class="mr-10">
+                La Team
+              </span>
+              <span class="mr-10">
+                Rejoindre la Team
+              </span>
+            </div>
+          </v-app-bar>
         </div>
-        <div>Wtgrkgrko</div>
       </div>
     </div>
   </div>
@@ -48,7 +74,6 @@ export default {
 .content, .overlay {
   grid-area: 1 / 1;
   z-index: 999;
-  display: flex;
   align-items: end;
 }
 </style>
