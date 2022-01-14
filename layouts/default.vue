@@ -2,19 +2,19 @@
   <v-app dark>
     <v-app-bar
       :clipped-left="clipped"
-      fixed
       app
+      fixed
     >
-      <div style="margin-left: 11rem" class="d-flex justify-center">
+      <div class="d-flex justify-center" style="margin-left: 11rem">
         <v-btn>LOGO</v-btn>
         <div style="margin-left: 3rem">
-          <v-btn class="mr-5">
+          <v-btn class="mr-5" @click="$router.push('/')">
             Accueil
           </v-btn>
-          <v-btn class="mr-5">
+          <v-btn class="mr-5" @click="$router.push('/parties')">
             Parties
           </v-btn>
-          <v-btn class="mr-5">
+          <v-btn class="mr-5" @click="$router.push('/organisations')">
             Organisations
           </v-btn>
         </div>
