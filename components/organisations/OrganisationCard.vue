@@ -31,7 +31,7 @@
           <v-btn
             color="deep-purple lighten-2"
             text
-            @click="reserve"
+            @click="$router.push('/organisations/1')"
           >
             Voir plus
           </v-btn>
