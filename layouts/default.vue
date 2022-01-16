@@ -19,6 +19,10 @@
           </v-btn>
         </div>
       </div>
+      <v-spacer />
+      <v-btn class="mr-5" @click="$router.push('/connexion')">
+        Connexion
+      </v-btn>
     </v-app-bar>
     <v-main>
       <Nuxt />

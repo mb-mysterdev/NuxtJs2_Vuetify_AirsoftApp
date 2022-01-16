@@ -121,7 +121,7 @@
 </template>
 
 <script>
-import PartieCard from '~/components/PartieCard'
+import PartieCard from '~/components/parties/PartieCard'
 
 export default {
   components: { PartieCard },

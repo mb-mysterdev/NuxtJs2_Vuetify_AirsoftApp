@@ -47,12 +47,12 @@
             text
             @click="dialog = true"
           >
-            Reserver
+            S'inscrire
           </v-btn>
           <v-btn
             color="deep-purple lighten-2"
             text
-            @click="reserve"
+            @click="$router.push('/parties/1')"
           >
             Voir plus
           </v-btn>
