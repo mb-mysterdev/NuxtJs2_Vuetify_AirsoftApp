@@ -1,5 +1,6 @@
 <template>
   <div>
+    <partie-subscriber :dialog="dialog" @dialogPartie="dialog = $event" />
     <v-card
       :loading="loading"
       class="mx-auto my-12"
@@ -63,8 +64,16 @@
 </template>
 
 <script>
+import PartieSubscriber from '~/components/parties/PartieSubscriber'
+
 export default {
-  name: 'PartieCard'
+  name: 'PartieCard',
+  components: { PartieSubscriber },
+  data () {
+    return {
+      dialog: false
+    }
+  }
 }
 </script>
 
