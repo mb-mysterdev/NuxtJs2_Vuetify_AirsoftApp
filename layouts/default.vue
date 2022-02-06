@@ -17,6 +17,9 @@
           <v-btn class="mr-5" @click="$router.push('/organisations')">
             Organisations
           </v-btn>
+          <v-btn class="mr-5" @click="$router.push('/equipes')">
+            Les équipes
+          </v-btn>
         </div>
       </div>
       <v-spacer />
